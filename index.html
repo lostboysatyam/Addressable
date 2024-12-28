@@ -3,51 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>My Stylish GitHub Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
+            background-color: #121212;
+            color: #ffffff;
         }
         header {
-            background-color: #007acc;
-            color: white;
-            padding: 1rem;
+            background-color: #ff6f61;
+            padding: 1.5rem;
             text-align: center;
+            color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         nav ul {
             list-style: none;
             padding: 0;
             display: flex;
             justify-content: center;
+            margin: 0;
         }
         nav ul li {
             margin: 0 1rem;
         }
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffcc29;
         }
         main {
             padding: 2rem;
             text-align: center;
         }
         footer {
-            background-color: #007acc;
-            color: white;
+            background-color: #ff6f61;
+            color: #ffffff;
             text-align: center;
             padding: 1rem;
             position: fixed;
             width: 100%;
             bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .button {
+            background-color: #ffcc29;
+            color: #121212;
+            border: none;
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ffd700;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My GitHub Page</h1>
+        <h1>Welcome to Satyam Sagar's GitHub Page</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -59,10 +81,11 @@
     </header>
     <main>
         <h2>Hello, world!</h2>
-        <p>This is a simple and elegant HTML design for your GitHub page.</p>
+        <p>This is a vibrant and stylish HTML design for Satyam Sagar's GitHub page.</p>
+        <button class="button">Learn More</button>
     </main>
     <footer>
-        <p>&copy; 2024 My GitHub Page</p>
+        <p>&copy; 2024 Satyam Sagar's GitHub Page</p>
     </footer>
 </body>
 </html>
