@@ -38,3 +38,6 @@ If you'd like to run this portfolio locally, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/lostboysatyam/Addressable.git
+
+2.Navigate to the project directory
+   cd Addressable
