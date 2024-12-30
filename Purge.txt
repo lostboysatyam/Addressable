@@ -1,1 +1,0 @@
-https://your-worker-url.workers.dev/purge?key=MySecretKey&purgeKey=https://mega.nz/folder/J8ghnJjS#CFgARe3vJ2_jCtfYMqeXkA
